@@ -163,6 +163,7 @@ will show this best. Let's extract our AMIs into a map and add
 support for the `us-west-2` region as well:
 
 ```hcl
+variable "region" {}
 variable "amis" {
   type = "map"
   default = {
